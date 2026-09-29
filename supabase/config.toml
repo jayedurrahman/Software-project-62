@@ -1,0 +1,8 @@
+project_id = "jyytalbzisrexdjcolhk"
+
+# Paddle JWT pathay na, tai webhook e JWT verification bondho thakte hobe
+[functions.payments-webhook]
+verify_jwt = false
+
+[functions.get-paddle-price]
+verify_jwt = false
